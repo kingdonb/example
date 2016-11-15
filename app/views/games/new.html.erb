@@ -1,0 +1,6 @@
+<%= form_for @game, validate: true do |f| %>
+  <%= f.label :players %>
+  <%= f.number_field :players %>
+
+  <%= f.submit %>
+<% end %>
